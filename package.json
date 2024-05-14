@@ -1,0 +1,31 @@
+{
+  "name": "ecosystem",
+  "type": "module",
+  "scripts": {
+    "setup": "roserepo setup",
+    "watch": "roserepo run watch",
+    "build": "roserepo run build",
+    "lint": "roserepo run lint",
+    "test": "roserepo run test",
+    "upgrade": "roserepo upgrade",
+    "version": "roserepo version",
+    "publish": "roserepo publish"
+  },
+  "devDependencies": {
+    "@meslzy/eslint": "^1.0.2",
+    "@meslzy/tsconfig": "^0.2.6",
+    "@types/node": "^20.12.7",
+    "eslint": "^9.1.0",
+    "rosepack": "^1.0.19",
+    "roserepo": "^1.0.19",
+    "typescript": "^5.4.5",
+    "unplugin-swc": "^1.4.5",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^1.5.0"
+  },
+  "workspaces": [
+    "examples/**",
+    "packages/**"
+  ],
+  "private": true
+}

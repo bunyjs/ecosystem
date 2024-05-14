@@ -1,0 +1,41 @@
+{
+  "name": "@buny/bull",
+  "version": "1.0.0",
+  "author": {
+    "name": "meslzy",
+    "email": "i@meslzy.com",
+    "url": "https://meslzy.com/"
+  },
+  "type": "module",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "watch": "rosepack -w",
+    "build": "rosepack",
+    "lint": "eslint --fix"
+  },
+  "dependencies": {
+    "bullmq": "^5.7.6"
+  },
+  "peerDependencies": {
+    "@buny/redis": "^1.0.0",
+    "@buny/di": "file:../../../buny/packages/di",
+    "@buny/ioc": "file:../../../buny/packages/ioc",
+    "@buny/core": "file:../../../buny/packages/core",
+    "@buny/config": "file:../../../buny/packages/config",
+    "@buny/logger": "file:../../../buny/packages/logger",
+    "@buny/event": "file:../../../buny/packages/event",
+    "@buny/shared": "file:../../../buny/packages/shared"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "buny",
+    "bull"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "mit"
+}

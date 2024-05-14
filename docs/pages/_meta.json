@@ -1,0 +1,16 @@
+{
+  "index": {
+    "title": "Ecosystem",
+    "hidden": true
+  },
+  "packages": {
+    "title": "Packages",
+    "hidden": true
+  },
+  "buny": {
+    "type": "page",
+    "title": "Buny",
+    "href": "https://www.bunyjs.com",
+    "newWindow": true
+  }
+}

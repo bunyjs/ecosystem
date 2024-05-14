@@ -1,0 +1,25 @@
+{
+  "name": "@examples/bull",
+  "type": "module",
+  "main": "source/app.ts",
+  "scripts": {
+    "dev": "buny dev",
+    "start": "buny start"
+  },
+  "dependencies": {
+    "bullmq": "^5.7.6",
+    "@buny/redis": "^1.0.0",
+    "@buny/bull": "^1.0.0",
+    "@buny/di": "file:../../../buny/packages/di",
+    "@buny/ioc": "file:../../../buny/packages/ioc",
+    "@buny/core": "file:../../../buny/packages/core",
+    "@buny/config": "file:../../../buny/packages/config",
+    "@buny/logger": "file:../../../buny/packages/logger",
+    "@buny/event": "file:../../../buny/packages/event",
+    "@buny/shared": "file:../../../buny/packages/shared"
+  },
+  "devDependencies": {
+    "buny": "file:../../../buny/packages/buny"
+  },
+  "private": true
+}
